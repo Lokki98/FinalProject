@@ -80,7 +80,7 @@ m <- leaflet(data) %>%
   addTiles() %>% 
   addCircleMarkers(~x, ~y, radius = ~size,color = ~as.factor(category)) %>% 
   addPopups(~x[2], ~y[2], "Random popup")
-m  # a map with the default OSM tile layer
+m  # a map with the default OSM tile laye
 ```
 
 
