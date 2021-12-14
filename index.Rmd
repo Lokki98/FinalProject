@@ -48,7 +48,7 @@ library(kableExtra)
 knitr::opts_chunk$set(cache=TRUE)  # cache the results for quick compilin
 ```
 
-## Download and clean all required data
+## Download and clean all required dat
 ```{r}
 n=20
 data=data.frame(x=runif(n,-180,180),
