@@ -1,5 +1,5 @@
 ---
-title: "My Final Project Template"
+title: "My Final Project Templat"
 author: Ziqi Tang
 subtitle: Subtitle here if desired
 ---
@@ -12,7 +12,7 @@ Clearly stated background and questions / hypotheses / problems being addressed.
 
 # Materials and methods
 
-[~ 200 words]
+[~ 200 words]insta
 
 Narrative: Clear narrative description of the data sources and methods. Includes data from at least two sources that were integrated / merged in R.
 
@@ -43,21 +43,12 @@ Here's my first code chunk.
 Load any required packages in a code chunk (you may need to install some packages):
 
 ```{r, message=F, warning=F}
-library(leaflet)
-library(kableExtra)
-knitr::opts_chunk$set(cache=TRUE)  # cache the results for quick compilin
+ # cache the results for quick compilin
 ```
 
 ## Download and clean all required dat
 ```{r}
-n=20
-data=data.frame(x=runif(n,-180,180),
-                y=runif(n,-60,60),
-                size = runif(n, 5, 20),
-                category = factor(
-                  sample(letters[1:5], n, replace = TRUE)
-                  ),
-                value = rnorm(n))
+
 ```
 
 ```{r, results='asis'}
